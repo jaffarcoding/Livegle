@@ -1,0 +1,26 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+@media (max-aspect-ratio: 11/7){
+    .joincontainer{
+       min-height:  50%; 
+        width: 92%;
+        
+    }
+    #joininput{
+        font-size: 1.5rem !important;
+       min-width: 90%;
+    }
+}
+@media (max-aspect-ratio: 11/7){
+    .chatcontainer{
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .inputBox{
+        height: 5rem !important;
+        width: 98% !important;
+    }
+}
